@@ -1,0 +1,24 @@
+video java ee
+
+lo 1ro tenemos q crear una base de datos yo ya tengo una ya echa con una entidad llamda persona y con dos datos ingresados
+
+despues de haber realiazado eso teniamos q ver si nuestra maquina si tenemos el glasfish 5 que es el que estoy utilizando pero si en su caso no o tiene se puede encontrar en el navegador y ahi podemos bucar el glasfish
+
+luego de eso nos metemos a la carpeta de glasfis y tenemos el conector de la base de datos este lo tenemos q tener aqui metido y despues nos metemos a la caprta q se llama glasfish y lo metemos ahi tambien esto nos evitara un error posible en el futuro
+
+despues nos vamos al disco c buscamos la carpteade archivo de programas y buscamos la carptea de net beans 8.2 q es en mi caso despues nos metemos a java despues a maven despues en conf  tenemos un archivo llamado settings.xml lo abrimos con un bloc de notas y biscaremos mirror despues de aver agregado esa parte lo guardamos yo lo voy ha guardar en escritorio y lo arrastrare a la carptea y le daremos remplazar y asi tambien nos evitamos otro posible error en el futuro 
+
+despues buscamos la caprta de usuiarios y nos vamos a la carpeta de m2 y metemos el repositorio ahi y este lo podemos encontrar en el navegador tambien
+
+despues de eso nos vamos ha net beans q es en mi caso 
+y crearemos nuestro proyecto de java web despues web aplicacion y crearemos una casle llamda persona donde iran los datos de a base de datos
+
+despues teneos q agregar nuestro servidor q en este caso es el gllasfish tenemos q darle en server dalr clic derechoy selecionar el servidor le damos next y le damso en browser y buscamos glasfish xq ahi esta nuestro conector le damos next y le podemos poner cualquier nombre no afecta en nada despue slocal host el puerto q tenemos ponemos el user name y la contrase;a igual no me va ha dejar crearlo xq ya esta echo y ahi se agregari el server  
+
+aqui en projed files tenemos un archo llamado porm.xml en el caso de ustedes no les aprecerda las dependencias como la de hibernate y tampoc la del mysql
+
+y se preguntaran q pasa si no las tenemos simplemente nos va ha tirar error
+
+despues de agregar eos veremos q en la carptea de dependecinas se agregaron las dependecias
+
+despues nos vamos a la caprta de other source y verna q tenemos algo llamdo pesistence.xml en dising en library selcioanremos hibenate despues nos vamos a source y ahi tendrmos q agregar lo q se pode la contrase;a el usuario la direccion 
